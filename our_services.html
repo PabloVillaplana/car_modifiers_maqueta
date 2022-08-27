@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Modifiers | Nuestros Servicios</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header_intern">
+        <img src="https://www.carmodifiers.net/upload/banner/jGNWoBUfOfs0Bet.png" alt="" srcset="" width="300px">
+        <i class="fas fa-bars burguer-button"></i>
+        <div class="header_intern_header_items">
+            <a href="#" class="header_menu_item">Menú</a>
+            <a href="#" class="header_menu_item">Servicios</a>
+            <a href="#" class="header_menu_item">Productos</a>
+            <a href="#" class="header_menu_item">Contacto</a>
+            <a href="#" class="header_menu_item">Nosotros</a>
+        </div>
+        <nav class="menu_movile">
+            <ol>
+                <li>Sitios Bac</li>
+                <li>Iniciar Sesión</li>
+                <li>CR | DOLAR</li>
+            </ol>
+        </nav>
+    </header>
+    <section class="our_services">
+        <div class="tittle_container">
+            <h2>Nuestros Servicios</h2>
+            <p>Te asesoramos en el proceso de personalización con verdaderos profesionales.</p>
+        </div>
+        <div class="our_services_container">
+            <div class="our_services_image_container">
+                <h2>Instalación de Polarizado</h2>
+                <img src="images/polarizado.png" alt="" width="50%">
+                <a href="">MÁS INFORMACIÓN</a>
+            </div>
+        </div>
+        <div class="our_services_container">
+            <div class="our_services_image_container">
+                <h2>Instalación de Muflas y Terminales</h2>
+                <img src="images/muflas.png" alt="" width="50%">
+                <a href="">MÁS INFORMACIÓN</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="our_clients">
+
+    </section>
+
+    <footer>
+        <div class="grid">
+            <div class="grid_item">
+                <p class="footer_column_title">Contactenos</p>
+                <div class="footer_content">
+                    <p>Puedes llamar al 2282-3641 o escribirnos al whatsapp 8666-8989</p>
+                </div>
+            </div>
+            <div class="grid_item">
+                <p class="footer_column_title">Ubicanos</p>
+                <div class="footer_content">
+                    <p>Estamos en waze como Car Modifiers SHop - Parque Comercial Lindora</p>
+                </div>
+            </div>
+            <div class="grid_item">
+                <p class="footer_column_title">Horario</p>
+                <div class="footer_content">
+                    <p>Lunes a Viernes de 9:30 a 6:00pm jornada continua y Sabados 9:30am a 4:00pm.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_social">
+            <div class="social_networks">
+                <a href="/">Facebook</a>
+                <a href="/">Instagram</a>
+                <a href="/">Youtube</a>
+                <a href="/">Tiktok</a>
+            </div>
+            <div class="social_logo_container">
+                <img src="https://www.carmodifiers.net/upload/banner/jGNWoBUfOfs0Bet.png" alt="" srcset="" width="300px">
+            </div>
+        </div>
+    </footer>
+    <script>
+        const tablet = window.matchMedia('screen and (max-width: 767px)');
+        const menu_movile = document.querySelector('.menu_movile');
+        const burguerButton = document.querySelector('.burguer-button');
+
+        tablet.addListener(validator);
+
+        function validator(event){
+            if (event.matches){
+                burguerButton.addEventListener('click', hideShow)
+            }else{
+                burguerButton.removeEventListener('click', hideShow)
+            }
+        }
+
+        validator(menu_movile)
+
+        function hideShow(){
+            if(menu_movile.classList.contains('is_active')){
+                menu_movile.classList.remove('is_active');
+            }else{
+                menu_movile.classList.add('is_active');
+            }
+        }
+    </script>
+</body>
+</html>

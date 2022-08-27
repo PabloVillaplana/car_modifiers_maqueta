@@ -1,0 +1,419 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+section{
+    background: black;
+}
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+.header img{
+    padding: 17px 30px 17px 50px;
+}
+.header_items a{
+    margin: 0 30px;
+    color: white;
+}
+
+.header_items{
+    padding: 0 30px;
+}
+
+.header_items{
+    background: #000000ab;
+    padding: 1em 1em;
+}
+
+.header_menu_item {
+    font-size: 2em;
+    text-decoration: none;
+}
+/* End Header */
+
+/* Header Inter */
+
+.header_intern{
+    background-color: black;
+
+}
+
+.header_intern a{
+    color: white;
+    margin: 0px 1em;
+    font-size: 1em;
+}
+
+
+.header_intern{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    width: 100%;
+    z-index: 5;
+    height: 6em;
+}
+/* End Header Intern */
+
+/* Our Brands Intern */
+.our_brands_intern{
+    padding: 1em 1em 10em;
+}
+
+.tittle_container{
+    margin-left: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.tittle_container h2{
+    color: white;
+    font-size: 3em;
+    padding: 0;
+    margin: 0px;
+}
+
+.tittle_container p{
+    color: grey;
+}
+/* End Our Brands Intern */
+
+/* Brands */
+.brand{
+    padding: 1em 1em 10em;
+}
+
+.brand_image_container{
+    text-align: center;
+}
+
+.brand_container{
+    display: grid;
+    background-color: black;
+    padding: 7em 5em;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 53px;
+    align-items: center;
+}
+
+.brand_container .item{
+    color: white;
+    font-size: 30px;
+    padding-right: 3em;
+    line-height: 2em;
+}
+
+/* End Brands */
+
+/* Our Services */
+
+.our_services{
+    padding: 1em 1em 10em;
+}
+
+.our_services_container{
+
+}
+
+/* End Services */
+
+
+/* Hero */
+
+.hero{
+
+}
+.hero img{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*  */
+/* Catalog Welcome */
+
+.catalog_welcome{
+    display: grid;
+    background-color: black;
+    padding: 7em 5em;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 53px;
+    align-items: center;
+}
+
+.catalog_welcome .item img{
+    width: 100%;
+}
+
+.catalog_welcome .item{
+    background: none;
+    color: white;
+    text-align: center;
+}
+
+.catalog_welcome .item h2{
+    font-size: 2.6em;
+    text-align: center;
+}
+
+.catalog_welcome button{
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 1em 2em;
+    text-decoration: none;
+    background: red;
+    color: white;
+    font-weight: bolder;
+    width: 15em;
+    margin: 2em;
+}
+
+/* End Catalog Welcome */
+
+
+
+/* Our History */
+.our_history{
+    background: black;
+    padding: 4em;
+    color: white;
+    text-align: center;
+}
+
+.our_history_title{
+    font-size: 3em;
+}
+
+.our_history_text{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/* end history */
+
+/* Team */
+
+.team{
+    padding: 1px;
+    background: black;
+    position: relative;
+    text-align: center;
+}
+
+
+.team img{
+    width: 100%;
+}
+
+.team_text_container{
+    background: black;
+    color: white;
+    position: absolute;
+    margin: auto auto;
+    font-size: 3em;
+    top: 50%;
+    right: 25%;
+    left: 25%;
+}
+/* End Team */
+
+/* Our Brands */
+.our_brands{
+    background: white;
+    text-align: center;
+    padding: 4em;
+}
+
+.our_brands h2{
+    font-size: 4em;
+}
+
+.our_brands_container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.our_brands_container .item{
+    text-align: center;
+}
+
+.our_brands_button_container{
+    margin-top: 4em;
+    margin-right: 1em;
+    text-align: right;
+}
+
+.our_brands_button_container a{
+    background: gray;
+    padding: 10px 52px;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* End Our Brands */
+
+/* Our Services */
+.our_services_image_container{
+    /* text-align: center; */
+    margin: 0 14%;
+}
+
+.our_services_image_container img{
+    width: 100%;
+}
+
+.our_services_container h2{
+    color: white;
+    font-size: 3em;
+}
+
+.our_services_image_container a{
+    color: black;
+    background: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    top: 33em;
+    left: 11em;
+    font-size: 2em;
+}
+
+/* End Our Services */
+
+/* Footer */
+
+
+
+
+footer{
+     background-color: red;
+     padding: 2em;
+     color: white;
+}
+
+footer .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9em;
+}
+
+footer .grid .grid_item{
+    padding: 0 6em 0 1em;
+}
+
+.footer_column_title{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.social_networks{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6em 0 1em;
+    margin-top: 3em;
+}
+
+.social_networks a{
+    color: white;
+    text-decoration: none;
+    line-height: 2em;
+}
+/* Responsive */
+
+.burguer-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 4;
+    right: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu_movile{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .burguer-button{
+        display: block;
+    }
+
+    .header_items{
+        display: none;
+    }
+
+    .menu_movile{
+        position: fixed;
+        background-color: #ff0000ab;
+        z-index: 3;
+        width: 100vw;
+        left: -100vw;
+        bottom: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .menu_movile.is_active{
+        left: 0;
+        height: 100vh;
+    }
+
+    .menu_movile li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 2em;
+        padding: 0.3em;
+        font-weight: lighter;
+    }
+
+    .hero_select {
+        padding: 4em 2em;
+    }
+
+    .hero_select_options {
+        width: 40%;
+    }
+
+    .banner div {
+        padding: 0 2em;
+    }
+
+    .banner_description h4 {
+        font-size: 1.5em;
+    }
+}
