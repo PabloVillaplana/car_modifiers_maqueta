@@ -128,6 +128,48 @@ section{
 /* End Services */
 
 
+.products_container{
+        display: grid;
+    background-color: black;
+    padding: 7em 5em;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    align-items: center;
+}
+
+.products_container p{
+    color: black;
+}
+
+.products_container .card_container{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.card_image img{
+    width: 100%;
+}
+
+.products_container .card_container .card_text{
+    padding: 1em;
+}
+
+
+.products_container .card_container .card_text .title{
+    font-size: 2em;
+}
+
+
+.products_container .card_container .card_text .subtitle{
+    font-size: 1.5em;
+}
+
+.card_text_details{
+    display: flex;
+}
+
 /* Hero */
 
 .hero{
